@@ -6,7 +6,7 @@
 * [一、简介](#1)  
 * [二、功能](#2)  
 * [三、A股交易](#3)  
-* <font color=white>221</font>	[1. 接入使用](#3.1)  
+*     [1. 接入使用](#3.1)  
 * <font color=white>221</font>	[2. A股交易代码相关](#3.2)  
 * <font color=white>22222</font>	[2.1 API & URL](#3.2.1)
 * <font color=white>22222</font>	[2.2 账户系统](#3.2.2)
