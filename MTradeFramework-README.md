@@ -6,18 +6,18 @@
 * [一、简介](#1)  
 * [二、功能](#2)  
 * [三、A股交易](#3)  
-* <font color=white>221</font>	[1. 接入使用](#3.1)  
-* <font color=white>221</font>	[2. A股交易代码相关](#3.2)  
-* <font color=white>22222</font>	[2.1 API & URL](#3.2.1)
-* <font color=white>22222</font>	[2.2 账户系统](#3.2.2)
-* <font color=white>22222</font>	[2.3 登录逻辑](#3.2.3)
-* <font color=white>22222</font>	[2.4 加密方法](#3.2.4)
-* <font color=white>22222</font>	[2.5 第三方SDK](#3.2.5)
+* <font color=white>---</font>	[1. 接入使用](#3.1)  
+* <font color=white>---</font>	[2. A股交易代码相关](#3.2)  
+* <font color=white>-----</font>	[2.1 API & URL](#3.2.1)
+* <font color=white>-----</font>	[2.2 账户系统](#3.2.2)
+* <font color=white>-----</font>	[2.3 登录逻辑](#3.2.3)
+* <font color=white>-----</font>	[2.4 加密方法](#3.2.4)
+* <font color=white>-----</font>	[2.5 第三方SDK](#3.2.5)
 * [四、基金交易](#4)
 * [五、更新](#5)
-* <font color=white>22222</font>	[5.1 路由](#5.1)
-* <font color=white>22222</font>	[5.2 见闻->我的页面](#5.2)
-* <font color=white>22222</font>	[5.3 立即绑定](#5.3)
+* <font color=white>-----</font>	[5.1 路由](#5.1)
+* <font color=white>-----</font>	[5.2 见闻->我的页面](#5.2)
+* <font color=white>-----</font>	[5.3 立即绑定](#5.3)
 
 
 <h2 id="0">前言</h2>
@@ -70,11 +70,15 @@ MTradeFramework提供A股交易和基金交易。
 
 #### 1)通过路由调用
 路由表如下：
->
-* 闪电开户：	astock.wallstreetcn.com
-* 立即绑定：	astock.wallstreetcn.com/paLogin
-* 买买买：	 	astock.wallstreetcn.com
-* 一键打新：	astock.wallstreetcn.com/more
+<blockquote>
+闪电开户：	astock.wallstreetcn.com
+
+立即绑定：	astock.wallstreetcn.com/paLogin
+
+一键打新：	astock.wallstreetcn.com/more
+
+买买买：	astock.wallstreetcn.com
+</blockquote>
 
 * 进入A股交易主页面
 
