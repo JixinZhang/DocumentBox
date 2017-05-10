@@ -216,89 +216,19 @@ id<JLiveRoomService> liveRoomService = [JLiveRoom sharedService];
 
 ###1.Framework
 
-|Framework		|来源			|Framework大小(MB)|  打包增加大小|备注|
-|---------------|---------------|---------------:|---------------:|---------------|
-|AlipaySDK|阿里支付|9|533 KB||
-|BeaconAPI_Base|腾讯|17.6|547 KB||
-|MSDKDns_C11|腾讯|1.5|71 KB||
-|TencentOpenAPI|腾讯|7.7|357 KB||
-|IJKMediaFramework|哔哩哔哩|144.3|6.5 MB||
-|UMMobClick|友盟|7.5|303 KB||
-|[UMSocial](#UMSocial)|友盟第三方登录|147.7|5 MB||
-|[MVendorFramework](#MVendorFramework)|华尔街见闻|17.6|1.53 MB||
-|[GoldNetworkFramework](#GoldNetworkFramework)|华尔街见闻|19.8|1.23 MB||
-|KwlOpenSDK|金微蓝|9|**<font color="red">(KwlOpenSDK和PAZQOPAVSDK) </font>**6.2 MB||
-|PAZQOPAVSDK|平安证券|99.4|**<font color="red">(KwlOpenSDK和PAZQOPAVSDK)</font>** 6.2 MB||
-
-<h3 id="MVendorFramework">2.MVendorFramework包含的第三方SDK</h3>
-
-* Masonry
-* MJRefresh
-* MJEXtension
-* MBProgressHUD
-* YYText
-* FDFullscreenPopGesture
-* UITableView-FDTemplateLayoutCell
-* YYModel
-* TTTAttributedLabel
-* TFHpple
-
-<h3 id="GoldNetworkFramework">3.GoldNetworkFrame包含的第三方SDK</h3>
-
-* AFNetworking
-* SDWebImage
-* JSONKit
-* OpenUDID
-* SRWebSocket
-
-
-<h3 id="UMSocial">4.UMSocial包含的第三方SDK</h3>
-
-```
-* 友盟
-	* UMSocialNetwork.framework
-	* UMSocialCore.framework
-	* UShareUI.framework
-	* libUMSocialLog.a
-
-* Facebook
-	* Bolts.framework
-	* FBSDKCoreKit.framework
-	* FBSDKLoginKit.framework
-	* FBSDKShareKit.framework
-	* libSocialFacebook.a
-
-* QQ
-	* libSocialQQ.a
-	* TencentOpenApi_IOS_Bundle.bundle
-	* TencentOpenAPI.framework
-
-* 新浪微博
-	* libSocialSina.a
-	* libWeiboSDK.a
-	* WeiboSDK.bundle
-
-* twitter
-	* Fabric.framework
-	* libSocialTwitter.a
-	* TwitterCore.framework
-	* TwitterKit.framework
-
-* 微信
-	* libSocialWeChat.a
-	* libWeChatSDK.a
-
-* 短信
-	* libSocialSMS.a
-
-* Email
-	* libSocialEmail.a
-* EverNote
-	* libSocialEverNote.a
-* 有道
-	* libSocialYouDao.a
-
-```
+|Framework		|来源				|Framework大小(MB)|  打包增加大小|备注|
+|---------------	|---------------	|---------------:|---------------:|---------------|
+|AlipaySDK		|阿里支付			|	9|533 KB||
+|BeaconAPI_Base	|腾讯	|17.6	|547 KB	|  |
+|MSDKDns_C11	|腾讯	|1.5	|71 KB	|	|
+|TencentOpenAPI	|腾讯	|7.7	|357 KB	|  |
+|IJKMediaFramework|哔哩哔哩	|144.3	|6.5 MB |  |
+|UMMobClick	|友盟	|7.5	|303 KB	|	|
+|UMSocial		|友盟第三方登录	|147.7 |5 MB |`友盟` `有道` `新浪微博` `微信` `短信` `Facebook` `QQ` `twitter` `Email` `Evernote`|
+|MVendorFramework|华尔街见闻|17.6|1.53 MB|`Masonry` `MJRefresh` `MJEXtension` `MBProgressHUD` `YYText` `FDFullscreenPopGesture` `UITableView-FDTemplateLayoutCell` `YYModel` `TTTAttributedLabel` `TFHpple`|
+|GoldNetworkFramework|华尔街见闻|19.8|1.23 MB|`AFNetworking` `SDWebImage` `JSONKit` `OpenUDID` `SRWebSocket`|
+|KwlOpenSDK|金微蓝|9|(KwlOpenSDK和PAZQOPAVSDK)6.2 MB||
+|PAZQOPAVSDK|平安证券|99.4|(KwlOpenSDK和PAZQOPAVSDK)6.2 MB||
 
 ###5.Bundle
 
