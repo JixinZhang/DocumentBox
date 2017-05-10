@@ -253,6 +253,7 @@ id<JLiveRoomService> liveRoomService = [JLiveRoom sharedService];
 
 
 <h3 id="UMSocial">4.UMSocial包含的第三方SDK</h3>
+
 ```
 * 友盟
 	* UMSocialNetwork.framework
