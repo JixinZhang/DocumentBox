@@ -214,7 +214,7 @@ id<JLiveRoomService> liveRoomService = [JLiveRoom sharedService];
 十二、第三方Fremework
 ---
 
-###1.Framework
+1、Framework
 
 |Framework		|来源				|Framework大小(MB)|  打包增加大小|备注|
 |---------------	|---------------	|---------------:|---------------:|---------------|
@@ -230,7 +230,7 @@ id<JLiveRoomService> liveRoomService = [JLiveRoom sharedService];
 |KwlOpenSDK|金微蓝|9|(KwlOpenSDK和PAZQOPAVSDK)6.2 MB||
 |PAZQOPAVSDK|平安证券|99.4|(KwlOpenSDK和PAZQOPAVSDK)6.2 MB||
 
-###5.Bundle
+2、Bundle
 
 | Bundle |来源| Bundle大小|打包增加大小|
 |---|---|:---:|---|
